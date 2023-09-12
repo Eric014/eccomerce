@@ -1,0 +1,335 @@
+
+
+body {
+    margin: 0;
+    background-color: #dbe4d2/* #fdfdec*/;
+  }
+  
+  
+  ::-webkit-scrollbar {
+      width: 15px;
+  }
+  
+  ::-webkit-scrollbar-track {
+      background-color: rgba(0, 0, 0, 0.349);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+      background: #535353;
+  
+  }
+  
+  .navbar {
+    z-index: 999;
+    margin:0%;
+    margin-top: -3.1%;
+    width: 100%;
+    position: fixed;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+  }
+  
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  
+  .navbar-menu {
+    
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    position: fixed;
+  }
+  
+  .navbar-menu li {
+    margin-left: 10%;
+  }
+  
+  .navbar-menu li a {
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    padding: 5%;
+    border-radius: 13%;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Efeito de hover suave */
+  .navbar-menu li a:hover {
+    background-color: #555;
+  }
+  
+  /* Cor de fundo para o link ativo */
+  .navbar-menu li a.active {
+    background-color: #555;
+  }
+  
+  /* Efeito de transição para o logotipo */
+  .logo:hover {
+    transform: rotate(5deg);
+  }
+  
+
+  
+  /* btn voltar ao topo*/
+  .voltar_ao_topo {
+      width: 100%;
+      text-align: right;
+      background-color: #131313;
+      padding-top: 1%;
+     text-decoration: none;
+  }
+  
+  /* configurações btn navbar*/
+  a:linK {
+      font-family: arial;
+      font-size: 20px;
+      text-decoration: none;
+      color: #333;
+  }
+  
+  a:visited {
+      font-family: arial;
+      font-size: 20px;
+      text-decoration: none;
+      color: #52473cf6;
+  }
+  
+  a:hover,
+  a:active {
+  
+      font-family: arial;
+      font-size: 22px;
+      text-decoration: underline;
+      color: #f0e1cf;
+      text-shadow: 2px 2px 2px #333;
+      transition: background 0.5s;
+  }
+  
+  
+  /* imgs produtos*/
+  .informacoes {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+      color: white;
+      
+  }
+  
+  .info-nav {
+    margin-top: 50px;
+      background-color: #3a3229;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+     
+  }
+  
+  .info-nav img {
+    width: 90%;
+      max-width: 100%;
+      margin-bottom: 10px;
+  }
+  
+  .info-nav h3 {
+      font-size: 18px;
+      margin-bottom: 10px;
+  }
+  
+  .info-nav p {
+      font-size: 16px;
+      margin-bottom: 10px;
+  }
+  
+  .info-nav button{
+      background-color: #86cf70;
+      color: #000000;
+      padding: 10px
+  }
+  
+  .info-nav button :hover {
+    margin: 5px;
+  }
+  
+  
+  
+  /*--------------------------------------------------------*/
+  
+  .final{
+    margin-top: 30%;
+    background-color: #333f27;
+    color: white;
+    font-size: larger;
+    display: flex;
+    padding: 3%;
+  }
+  .txt1{
+    background-color: #3b4d2b;
+    width: 50%;
+    margin: 5px;
+    padding: 5px;
+  }
+  .txt2{
+    background-color: #3b4d2b;
+    width: 50%;
+    margin: 5px;  
+    padding: 5px;
+  }
+  
+  .txtBanner{
+    
+    font-size: 55px;
+    color: rgb(183, 255, 168);
+    border-color: #131313;
+    text-shadow: 2px 2px 4px  black;
+    filter: drop-shadow(2px 2px 4px #58b46c);
+    margin-top: -30%;
+    margin-left: 1%;
+    float: left;
+  }
+  
+  .TBcor{
+    font-size: 80px;
+    color: rgb(243, 95, 58);
+    border-color: #131313;
+    text-shadow: 2px 2px 4px  black;
+    filter: drop-shadow(2px 2px 4px #58b46c);
+    margin-top: -25%;
+    margin-left: 23%;
+    float: left;
+  }
+  
+  .TBcor2{
+    font-size: 55px;
+    color: rgb(183, 255, 168);
+    border-color: #131313;
+    text-shadow: 2px 2px 4px  black;
+    filter: drop-shadow(2px 2px 4px #58b46c);
+    margin-top: -30%;
+    margin-left: 1%;
+    float: left;
+  }
+  
+  
+  
+  /*--------------------------------------------------------*/
+  
+  .inicio img{
+    width: 100%;
+    max-width: 100%;
+   height: 800px;
+     
+  }
+  
+  .login a{
+  
+    background-color: red;
+  }
+  
+  
+  /*--------------------------------------------------------*/
+  
+.sobreimg{
+  margin-top: 0%;
+  margin-top: 3.1%;
+}
+
+.devs{
+  background-color: #333f27;
+  max-width: 100%;
+  height: 100px;
+  align-items: center;
+  text-align: center;
+ /* margin-top: -5%;*/
+  box-shadow: #58644b 2px 3px 2px 3px;
+}
+
+.devs p{
+  align-items: center;
+  color: white;
+  font-size: 60px;
+  padding: 15px;
+}
+
+  
+
+.informacoes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  color: white;
+  
+}
+
+.info-nav {
+margin-top: 50px;
+background-color: rgb(26, 27, 24);
+padding: 20px;
+text-align: center;
+box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
+ 
+}
+
+.info-nav img {
+width: 90%;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.info-nav h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.info-nav p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+  /*--------------------------------------------------------*/
+
+  .navbar-menu2 {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 90%;
+    padding: 0%;
+    position: fixed;
+    
+  }
+  
+  .navbar-menu2 li {
+    margin-left: 10%;
+  }
+  
+  .navbar-menu2 li a {
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    padding: 5%;
+    border-radius: 13%;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Efeito de hover suave */
+  .navbar-menu2 li a:hover {
+    background-color: #555;
+  }
+  
+  /* Cor de fundo para o link ativo */
+  .navbar-menu2 li a.active {
+    background-color: #555;
+  }
+  
